@@ -212,3 +212,26 @@ h1{
   margin:3rem;
 }
 
+/* Footer */
+
+.footer-container{
+    background-color:rgb(44,62,80);
+}
+.head{
+    font-weight: bolder;
+    color: white;
+    font-size:1.5rem;
+}
+
+.parg-footer{
+   color:white;
+   font-size:1.2rem;
+   font-weight: 300;
+   display: block;
+   margin-block-start: 1em;
+   margin-block-end: 1em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+   width:60%;
+}
+
