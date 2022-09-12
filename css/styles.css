@@ -95,3 +95,9 @@ h1{
     margin-inline-end: 0px;
 }
 
+/* add images section  */
+.h1-imgsec{
+    font-size: 2.25rem;
+    line-height: 2rem;
+    color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
+}
