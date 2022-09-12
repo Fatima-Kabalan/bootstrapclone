@@ -1,0 +1,57 @@
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  img {
+    height: 100%;
+  }
+
+/* navbar */
+
+.nav{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    background-color:rgb(44,62,80);
+    color:white;
+    text-transform: uppercase;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+.links > li {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+.links > li:last-child {
+    margin-right: 0px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1{
+    padding:30px;
+    font-weight:bold;
+    font-size:30px;
+    margin-left:70px;
+}
+
