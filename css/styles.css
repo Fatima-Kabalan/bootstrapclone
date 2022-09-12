@@ -18,6 +18,16 @@
     background-color:rgb(44,62,80);
     color:white;
     text-transform: uppercase;
+    position: fixed;
+    width: 100%;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    height: 6rem;
+
+}
+
+.nav-container{
+    padding: 0px !important;
 }
 
 .links {
@@ -61,6 +71,7 @@ h1{
     display:flex;
     justify-content: center;
     flex-direction: column;
+    padding: 10rem;
 }
 
 .img{
@@ -69,19 +80,40 @@ h1{
 }
 
 .h1-hero{
-    font-size: 2.75rem;
+    margin: 2rem;
+    font-size: 4rem;
     line-height: 2.75rem;
     color:aliceblue;
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.first-line{
-        border: 3px solid white;
-        width:10%;
+.line{
+    margin-top: 1rem;
+    width: 15%;
+    height: 0.3rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.white-line{  
+    background-color: white; 
+}
+
+.colored-line{
+    background-color: rgb(44,62,80);
+}
+
+.line-container{
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-self: center;
+    justify-content: center;
 }
 
 .parg{
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-family: var(--bs-body-font-family);
     color: aliceblue;
     font-weight: var(--bs-body-font-weight);
@@ -95,21 +127,81 @@ h1{
 }
 
 /* add images section  */
-.h1-imgsec{
+.h1{
     font-size:3rem;
     line-height: 2rem;
-    color:rgb(44,62,80);
     text-align: center !important;
     margin-bottom: 0 !important;
     padding:30px;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
-.cont{
-   justify-content: center;
+.h1-img{
+    color:rgb(44,62,80);
+}
+
+.portfolio{
+    background-color: white;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5rem;
 }
 
 .cards{
     display:flex;
     justify-content:space-between;
 }
+
+
+/* ABout section */
+
+.about{
+    background-color: rgb(26,188,156);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.h1-about{
+    color:white;
+}
+
+.about-parg{
+    display: flex;
+    justify-content:space-between;
+    flex-direction:row;
+    font-size:1.3rem;
+    font-weight:400;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding:50px;
+    color: aliceblue;
+    font-family: var(--bs-body-font-family);
+    width:50%;
+    height: 50%;
+}
+
+.btn {
+    background-color:transparent;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border:50%;
+    border-radius:;
+}
+  
+.btn:hover {
+    background-color: white;
+    color: white;
+} 
+
+
