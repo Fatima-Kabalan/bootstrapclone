@@ -1,6 +1,6 @@
 const submit = document.getElementbyID("submit");
-
-
+window.onload = () => {
+    console.log("hello:")
 //tocheck if the letters are 5 letters
 function myFunction() {
     // Get the value of the input field with id="submit"
@@ -28,4 +28,5 @@ function validate() {
         return false;
     }
 }
-
+   submit.addEventListener('click',validate);
+}
