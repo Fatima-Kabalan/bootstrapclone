@@ -78,7 +78,7 @@
             <div style="margin-right: 1rem;"></div>
             <div>You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</div>
         </div>
-        <button class="btn"><i class="fa fa-download" style="font-size:25px;color:white;"></i> Free Download!</button>
+        <button class="btn"><i class="fa fa-download" style="font-size:25px;color:white; hover:black;"></i> Free Download!</button>
     </section>
     <!-- End of about section -->
     <!-- Start of contact section -->
@@ -86,13 +86,26 @@
         <h1 class="h1 h1-img h1-contact">CONTACT ME</h1>
             <div class="line-container">
                 <hr class="line colored-line">
-                <i class="fa fa-star" style="font-size:48px;color:rgb(44,62,80); hover: black;"></i>
+                <i class="fa fa-star" style="font-size:48px;color:rgb(44,62,80);"></i>
                 <hr class="line colored-line">
             </div>
-            <div class="container">
+            <div class="container div-column">
                 <label>Full name</label>
-                <input type="text" >
+                <input type="text"  >
             </div>
+            <div class="container div-column">
+                <label>Email <address></address></label>
+                <input type="text"  >
+            </div>
+            <div class="container  div-column">
+                <label>Phone number</label>
+                <input type="text"  >
+            </div>
+            <div class="container  div-column">
+                <label>Message</label>
+                <input type="text"  >
+            </div>
+            <button type="button" id="submit">Send</button>
     </section>
     <!-- End of contact section -->
     <!-- Footer -->

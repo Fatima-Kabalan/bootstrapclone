@@ -224,6 +224,12 @@ h1{
   margin:3rem;
 }
 
+.div-column{
+    display:flex;
+    justify-content:space-between;
+    flex-direction:column;
+}
+
 /* Footer */
 
 .footer-container{
