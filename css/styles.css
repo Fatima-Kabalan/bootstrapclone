@@ -76,9 +76,8 @@ h1{
 }
 
 .first-line{
-    color:aliceblue;
-    width: 50%;
-    Border-Bottom:line-height;
+        border: 10px solid white;
+        width:20%;
 }
 
 .parg{
@@ -108,4 +107,9 @@ h1{
 
 .cont{
    justify-content: center;
+}
+
+.cards{
+    display:flex;
+    justify-content:space-between;
 }
